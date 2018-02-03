@@ -1,0 +1,65 @@
+<html>
+<head>
+<link rel="icon" href="http://www.zreddx.net/EDU/book.png">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script src="https://use.fontawesome.com/c8b8ce43ad.js"></script>
+<title>Relogz site - Videos</title>
+<div style="float: left;">
+<h1>ReLogZ Site - Version BETA 1.0.9</h1>
+</div>
+<div style="float: right;">
+<script type="text/javascript">
+function GetClock(){
+var d=new Date();
+var nhour=d.getHours(),nmin=d.getMinutes(),nsec=d.getSeconds();
+if(nmin<=9) nmin="0"+nmin
+if(nsec<=9) nsec="0"+nsec;
+
+document.getElementById('clockbox').innerHTML=""+nhour+":"+nmin+":"+nsec+"";
+}
+
+window.onload=function(){
+GetClock();
+setInterval(GetClock,1000);
+}
+</script>
+<div id="clockbox"></div>
+
+
+<br>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr>
+<a href="index2.html">Home</a>
+<a href="videos.html">Videos</a>
+<hr>
+
+</head>
+<center>
+You are here: Relogz/videos
+<h2>Loading videos forever (No videos yet)</h2>
+<img src="loading.gif"></img>
+</center>
+</a>
+</center>
+<style>
+
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+</style>
+
+
+</html>
